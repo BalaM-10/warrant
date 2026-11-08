@@ -1,0 +1,13 @@
+# Render blueprint: one web service serves the API and the console. Demo data needs no keys.
+# PayPal keys are only needed to run live actions, never for the hosted demo.
+services:
+  - type: web
+    name: warrant
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    envVars:
+      - key: PAYPAL_BASE_URL
+        value: https://api-m.sandbox.paypal.com

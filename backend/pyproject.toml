@@ -1,0 +1,17 @@
+[project]
+name = "warrant"
+version = "0.1.0"
+description = "A referee for disputes over AI-agent purchases, running on PayPal's sandbox."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = ["fastapi", "uvicorn", "httpx", "pydantic", "pyjwt", "cryptography", "mcp>=1.2,<2"]
+
+[project.optional-dependencies]
+dev = ["pytest", "jsonschema"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

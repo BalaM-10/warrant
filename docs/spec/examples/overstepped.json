@@ -1,0 +1,80 @@
+{
+  "spec": "warrant.evidence-packet/0.1",
+  "created_at": 1700000000,
+  "processor": {
+    "name": "paypal",
+    "dispute_id": "PP-R-EXAMPLE-0001"
+  },
+  "claim": {
+    "reason": "OTHER",
+    "statement": "I changed my mind about this purchase.",
+    "amount_cents": 2501
+  },
+  "mandate": {
+    "token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ3YXJyYW50Iiwic3ViIjoiYnV5ZXItMDAxIiwianRpIjoibS1vdmVyLTAxIiwiaWF0IjoxNzkzOTM3MTE1LCJuYmYiOjE3OTM5MTM2MDAsImV4cCI6MTc5NjU5MjAwMCwidHlwZSI6ImludGVudF9tYW5kYXRlIiwiaW50ZW50Ijp7Im1hbmRhdGVfaWQiOiJtLW92ZXItMDEiLCJidXllcl9pZCI6ImJ1eWVyLTAwMSIsImluc3RydWN0aW9uIjoiQnV5IGEgVVNCLUMgY2FibGUgZm9yIG15IGxhcHRvcCwgdXAgdG8gJDI1LCBmcm9tIGFwcHJvdmVkIGVsZWN0cm9uaWNzIHN0b3JlcyIsImN1cnJlbmN5IjoiVVNEIiwibWF4X3RvdGFsX2NlbnRzIjoyNTAwLCJhbGxvd2VkX3ZlbmRvcnMiOlsic2hvcC5hY21lLWVsZWN0cm9uaWNzLnRlc3QiLCJjYWJsZWNpdHkudGVzdCJdLCJhbGxvd2VkX2NhdGVnb3JpZXMiOlsiZWxlY3Ryb25pY3NfYWNjZXNzb3JpZXMiXSwid2luZG93X2NhcF9jZW50cyI6NTAwMCwid2luZG93X2hvdXJzIjoyNCwibm90X2JlZm9yZSI6MTc5MzkxMzYwMCwibm90X2FmdGVyIjoxNzk2NTkyMDAwLCJleHRyYSI6e319fQ.kh-6BpIHdDygBmUduWwvTBvFdS2hVinDbJBk9q_akHwPCC2qFb1KxN2irHV_HcmFw4MKjCrE69VkA8EHeCdb8Q",
+    "claims": {
+      "mandate_id": "m-over-01",
+      "buyer_id": "buyer-001",
+      "instruction": "Buy a USB-C cable for my laptop, up to $25, from approved electronics stores",
+      "currency": "USD",
+      "max_total_cents": 2500,
+      "allowed_vendors": [
+        "shop.acme-electronics.test",
+        "cablecity.test"
+      ],
+      "allowed_categories": [
+        "electronics_accessories"
+      ],
+      "window_cap_cents": 5000,
+      "window_hours": 24,
+      "not_before": 1793913600,
+      "not_after": 1796592000,
+      "extra": {}
+    }
+  },
+  "receipt": {
+    "token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWNlaXB0X2lkIjoici1vdmVyLTAxIiwibWFuZGF0ZV9pZCI6Im0tb3Zlci0wMSIsIm1hbmRhdGVfc2hhMjU2IjoiODc0ZTA1Njk2N2M1NGYyNWU4MDQ3OGUyZGM4OGRjY2RkM2E3MDE1NGE4M2U4YTFjZTlhMDVkNjg2M2I3MGU0ZSIsInZlbmRvciI6InNob3AuYWNtZS1lbGVjdHJvbmljcy50ZXN0IiwiY2F0ZWdvcnlfZGVjbGFyZWQiOiJlbGVjdHJvbmljc19hY2Nlc3NvcmllcyIsIml0ZW1zIjpbeyJ0aXRsZSI6IlVTQi1DIGNhYmxlIDFtIiwicHJpY2VfY2VudHMiOjI1MDEsInF0eSI6MX1dLCJ0b3RhbF9jZW50cyI6MjUwMSwiY3VycmVuY3kiOiJVU0QiLCJwdXJjaGFzZWRfYXQiOjE3OTQwMDAwMDAsInRvbGRfYnV5ZXIiOiJCb3VnaHQgYSBVU0ItQyBjYWJsZSBmb3IgJDE5Ljk5IGF0IEFjbWUgRWxlY3Ryb25pY3MuIiwiYWdlbnRfcmF0aW9uYWxlIjoiTWF0Y2hlcyB0aGUgaW5zdHJ1Y3Rpb246IFVTQi1DIGNhYmxlLCB1bmRlciAkMjUsIGFwcHJvdmVkIHZlbmRvci4iLCJ1bnRydXN0ZWRfaW5wdXRzIjpbXSwicGF5cGFsX29yZGVyX2lkIjoiIn0.6ftJzcVKUVNf2g761fdD_wq0dNDE-8Kb06sHkIb7VAmm5wCZ-0L3YKAk0ri6HDbsZPffy5q4Ri4lwyAeOYp8og",
+    "claims": {
+      "receipt_id": "r-over-01",
+      "mandate_id": "m-over-01",
+      "mandate_sha256": "874e056967c54f25e80478e2dc88dccdd3a70154a83e8a1ce9a05d6863b70e4e",
+      "vendor": "shop.acme-electronics.test",
+      "category_declared": "electronics_accessories",
+      "items": [
+        {
+          "title": "USB-C cable 1m",
+          "price_cents": 2501,
+          "qty": 1
+        }
+      ],
+      "total_cents": 2501,
+      "currency": "USD",
+      "purchased_at": 1794000000,
+      "told_buyer": "Bought a USB-C cable for $19.99 at Acme Electronics.",
+      "agent_rationale": "Matches the instruction: USB-C cable, under $25, approved vendor.",
+      "untrusted_inputs": [],
+      "paypal_order_id": ""
+    }
+  },
+  "merchant_record": {
+    "delivery_status": "delivered",
+    "duplicate_charge": false,
+    "refund_owed": false,
+    "charged_cents": 2501
+  },
+  "prior_purchases": [],
+  "checks": {
+    "mandate_signature": "valid",
+    "receipt_signature": "valid"
+  },
+  "decision": {
+    "verdict": "OVERSTEPPED",
+    "reason_codes": [
+      "OVER_LIMIT"
+    ],
+    "explanation": "The purchase total is above the limit the buyer set.",
+    "used_model": false,
+    "recommended_action": "offer_refund"
+  },
+  "packet_sha256": "67916997433cd6702e1743529d8b50f80cb8e3d29be4a74f68b114557d575f74"
+}

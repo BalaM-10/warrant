@@ -1,0 +1,98 @@
+{
+ "buy a usb-c cable from test store, up to $0.50, for 30 days.": {
+  "date": "2026-11-08",
+  "fields": {
+   "categories": [
+    "electronics_accessories"
+   ],
+   "max_total": 0.5,
+   "valid_days": 30,
+   "vendors": [
+    "Test Store"
+   ],
+   "window_cap": null,
+   "window_hours": 24
+  },
+  "model": "nvidia/nemotron-3.5-bolt-e4b"
+ },
+ "buy a usb-c cable from test store, up to $5, for 30 days.": {
+  "date": "2026-11-08",
+  "fields": {
+   "categories": [
+    "electronics_accessories"
+   ],
+   "max_total": 5.0,
+   "valid_days": 30,
+   "vendors": [
+    "Test Store"
+   ],
+   "window_cap": null,
+   "window_hours": 24
+  },
+  "model": "nvidia/nemotron-3.5-bolt-e4b"
+ },
+ "buy headphones from test store, up to $60, for 14 days.": {
+  "date": "2026-11-08",
+  "fields": {
+   "categories": [
+    "audio"
+   ],
+   "max_total": 60.0,
+   "valid_days": 14,
+   "vendors": [
+    "Test Store"
+   ],
+   "window_cap": null,
+   "window_hours": 24
+  },
+  "model": "nvidia/nemotron-3.5-bolt-e4b"
+ },
+ "buy office supplies from test store, up to $40, no more than $100 a week, for 30 days.": {
+  "date": "2026-11-08",
+  "fields": {
+   "categories": [
+    "office_supplies"
+   ],
+   "max_total": 40.0,
+   "valid_days": 30,
+   "vendors": [
+    "Test Store"
+   ],
+   "window_cap": 100.0,
+   "window_hours": 168
+  },
+  "model": "nvidia/nemotron-3.5-bolt-e4b"
+ },
+ "buy usb-c cables from test store, up to $25, for 365 days.": {
+  "date": "2026-11-08",
+  "fields": {
+   "categories": [
+    "electronics_accessories"
+   ],
+   "max_total": 25.0,
+   "valid_days": 365,
+   "vendors": [
+    "Test Store"
+   ],
+   "window_cap": null,
+   "window_hours": 24
+  },
+  "model": "nvidia/nemotron-3.5-bolt-e4b"
+ },
+ "buy usb-c cables from test store, up to $25, for 7 days.": {
+  "date": "2026-11-08",
+  "fields": {
+   "categories": [
+    "electronics_accessories"
+   ],
+   "max_total": 25.0,
+   "valid_days": 7,
+   "vendors": [
+    "Test Store"
+   ],
+   "window_cap": null,
+   "window_hours": 24
+  },
+  "model": "nvidia/nemotron-3.5-bolt-e4b"
+ }
+}

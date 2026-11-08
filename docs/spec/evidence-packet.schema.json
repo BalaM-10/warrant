@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/warrant/evidence-packet/0.1",
+  "title": "Warrant evidence packet v0.1",
+  "type": "object",
+  "required": ["spec", "created_at", "processor", "claim", "mandate", "receipt", "merchant_record", "prior_purchases", "checks", "decision", "packet_sha256"],
+  "properties": {
+    "spec": { "const": "warrant.evidence-packet/0.1" },
+    "created_at": { "type": "integer", "description": "Unix seconds." },
+    "processor": {
+      "type": "object", "required": ["name", "dispute_id"],
+      "properties": { "name": { "type": "string", "description": "Payment processor, e.g. paypal." }, "dispute_id": { "type": "string" } }
+    },
+    "claim": {
+      "type": "object", "required": ["reason"],
+      "properties": { "reason": { "type": "string" }, "statement": { "type": "string" }, "amount_cents": { "type": "integer", "minimum": 0 } }
+    },
+    "mandate": { "$ref": "#/$defs/signed" },
+    "receipt": { "$ref": "#/$defs/signed" },
+    "merchant_record": { "type": "object", "description": "What the merchant reports, for example delivery_status." },
+    "prior_purchases": { "type": "array", "items": { "type": "object", "required": ["vendor", "total_cents", "purchased_at"] } },
+    "checks": {
+      "type": "object", "required": ["mandate_signature", "receipt_signature"],
+      "properties": {
+        "mandate_signature": { "enum": ["valid", "invalid", "missing"] },
+        "receipt_signature": { "enum": ["valid", "invalid", "missing"] }
+      }
+    },
+    "decision": {
+      "type": "object", "required": ["verdict", "reason_codes", "explanation", "used_model", "recommended_action"],
+      "properties": {
+        "verdict": { "enum": ["WITHIN_MANDATE", "OVERSTEPPED", "MERCHANT_FAULT", "UNRESOLVED"] },
+        "reason_codes": { "type": "array", "items": { "type": "string" } },
+        "explanation": { "type": "string" },
+        "used_model": { "type": "boolean" },
+        "recommended_action": { "type": "string" }
+      }
+    },
+    "packet_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+  },
+  "$defs": {
+    "signed": {
+      "type": "object", "required": ["token", "claims"],
+      "properties": {
+        "token": { "type": ["string", "null"], "description": "The signed JWT (ES256), verbatim, so the signature can be re-checked." },
+        "claims": { "type": ["object", "null"], "description": "Decoded claims, present only when the signature verified." }
+      }
+    }
+  }
+}

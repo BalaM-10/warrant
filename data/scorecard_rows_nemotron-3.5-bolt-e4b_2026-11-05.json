@@ -1,0 +1,28 @@
+# Warrant scorecard
+
+Scenarios and labels are our own (n=36). Classifier: LLM nvidia/nemotron-3.5-bolt-e4b via nvidia, run 2026-11-05; 67 model calls, 0 failed (a failed call counts as a hand-off to a human).
+
+
+## Split: report
+
+| Arbiter | Cases | Agrees with label | Unsafe refunds/accepts | Guessed when it should hand off |
+|---|---|---|---|---|
+| rules-only | 24 | 21/24 | 0 | 0/3 |
+| llm-only | 24 | 13/24 | 0 | 3/3 |
+| hybrid | 24 | 24/24 | 0 | 0/3 |
+
+## Split: tune
+
+| Arbiter | Cases | Agrees with label | Unsafe refunds/accepts | Guessed when it should hand off |
+|---|---|---|---|---|
+| rules-only | 12 | 11/12 | 0 | 0/2 |
+| llm-only | 12 | 8/12 | 0 | 2/2 |
+| hybrid | 12 | 12/12 | 0 | 0/2 |
+
+## Split: all
+
+| Arbiter | Cases | Agrees with label | Unsafe refunds/accepts | Guessed when it should hand off |
+|---|---|---|---|---|
+| rules-only | 36 | 32/36 | 0 | 0/5 |
+| llm-only | 36 | 21/36 | 0 | 5/5 |
+| hybrid | 36 | 36/36 | 0 | 0/5 |

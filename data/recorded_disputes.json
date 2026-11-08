@@ -1,0 +1,635 @@
+{
+ "keys": {
+  "mandate_pub": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUZrd0V3WUhLb1pJemowQ0FRWUlLb1pJemowREFRY0RRZ0FFWW03elFiWERWdGJKbW1ETENvWG1EWW5jdGRXdAozOXN0aXZYQm51L1gxMHM3bFJ2NURocFB6UUtaUzVMTUNrZEliS25LbHhMMTRISkFlVHFiR1BoYUV3PT0KLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==",
+  "agent_pub": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUZrd0V3WUhLb1pJemowQ0FRWUlLb1pJemowREFRY0RRZ0FFQ2ZTYmxiUUFUczlXWUJaOFJreTJzNVJvd1JKVApocW5DM2FTTU5jRTRMNlFGNVAxWjBPSDBsUkdWRmRZUkEydi9pYW8wOGZqQmYzTnZmMUZ3Y2ZHOUdnPT0KLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+ },
+ "disputes": [
+  {
+   "dispute": {
+    "dispute_id": "PP-R-PAS-10197091",
+    "create_time": "2026-11-08T07:13:27.078Z",
+    "update_time": "2026-11-08T07:16:51.767Z",
+    "disputed_transactions": [
+     {
+      "buyer_transaction_id": "1B420068P19342258",
+      "seller_transaction_id": "80D58040R0751113B",
+      "create_time": "2026-11-08T07:09:27.000Z",
+      "transaction_status": "HELD",
+      "gross_amount": {
+       "currency_code": "USD",
+       "value": "1.00"
+      },
+      "buyer": {
+       "email": "removed",
+       "payer_id": "removed",
+       "name": "removed"
+      },
+      "seller": {
+       "email": "removed",
+       "merchant_id": "removed",
+       "name": "removed"
+      },
+      "items": [
+       {
+        "item_name": "USB-C cable",
+        "item_description": "USB-C cable",
+        "item_quantity": "1",
+        "reason": "MERCHANDISE_OR_SERVICE_NOT_RECEIVED",
+        "item_type": "PRODUCT"
+       }
+      ],
+      "seller_protection_eligible": true,
+      "seller_protection_type": "EXPANDED_SELLER_PROTECTION"
+     }
+    ],
+    "reason": "MERCHANDISE_OR_SERVICE_NOT_RECEIVED",
+    "status": "WAITING_FOR_SELLER_RESPONSE",
+    "dispute_amount": {
+     "currency_code": "USD",
+     "value": "1.00"
+    },
+    "dispute_state": "REQUIRED_ACTION",
+    "fund_movements": [
+     {
+      "party": "RECEIVER",
+      "amount": {
+       "currency_code": "USD",
+       "value": "0.48"
+      },
+      "initiated_time": "2026-11-08T07:16:34.000Z",
+      "type": "DEBIT",
+      "reason": "HOLD_PLACED"
+     }
+    ],
+    "dispute_life_cycle_stage": "INQUIRY",
+    "dispute_channel": "INTERNAL",
+    "messages": [
+     {
+      "posted_by": "BUYER",
+      "time_posted": "2026-11-08T07:13:27.078Z",
+      "content": "My agent bought a USB-C cable for $1.00 but I have not received it."
+     }
+    ],
+    "extensions": {
+     "merchant_contacted": false,
+     "buyer_contacted_time": "2026-11-08T07:13:26.541Z"
+    },
+    "evidences": [
+     {
+      "evidence_type": "CREATE",
+      "notes": "My agent bought a USB-C cable for $1.00 but I have not received it.",
+      "source": "SUBMITTED_BY_BUYER",
+      "date": "2026-11-08T07:13:27.078Z",
+      "dispute_life_cycle_stage": "INQUIRY"
+     },
+     {
+      "evidence_type": "PROOF_OF_FULFILLMENT",
+      "source": "REQUESTED_FROM_SELLER",
+      "date": "2026-11-08T07:16:51.767Z"
+     }
+    ],
+    "seller_response_due_date": "2026-11-28T07:13:27.078Z",
+    "offer": {
+     "buyer_requested_amount": {
+      "currency_code": "USD",
+      "value": "1.00"
+     }
+    },
+    "refund_details": {
+     "allowed_refund_amount": {
+      "currency_code": "USD",
+      "value": "1.00"
+     }
+    },
+    "allowed_response_options": {
+     "accept_claim": {
+      "accept_claim_types": [
+       "PARTIAL_REFUND",
+       "REFUND"
+      ]
+     },
+     "make_offer": {
+      "offer_types": [
+       "REFUND"
+      ]
+     }
+    },
+    "links": [
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-PAS-10197091",
+      "rel": "self",
+      "method": "GET"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-PAS-10197091/accept-claim",
+      "rel": "accept_claim",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-PAS-10197091/provide-evidence",
+      "rel": "provide_evidence",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-PAS-10197091/send-message",
+      "rel": "send_message",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-PAS-10197091/escalate",
+      "rel": "escalate",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-PAS-10197091/make-offer",
+      "rel": "make_offer",
+      "method": "POST"
+     }
+    ]
+   },
+   "mandate_id": "m-0ebbdbc7ad",
+   "mandate_token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ3YXJyYW50Iiwic3ViIjoiYnV5ZXIiLCJqdGkiOiJtLTBlYmJkYmM3YWQiLCJpYXQiOjE3OTQxMjE3MjksIm5iZiI6MTc5NDEyMTY2OSwiZXhwIjoxNzk2NzEzNjY5LCJ0eXBlIjoiaW50ZW50X21hbmRhdGUiLCJpbnRlbnQiOnsibWFuZGF0ZV9pZCI6Im0tMGViYmRiYzdhZCIsImJ1eWVyX2lkIjoiYnV5ZXIiLCJpbnN0cnVjdGlvbiI6IkJ1eSBhIFVTQi1DIGNhYmxlIGZyb20gVGVzdCBTdG9yZSwgdXAgdG8gJDUsIGZvciAzMCBkYXlzLiIsImN1cnJlbmN5IjoiVVNEIiwibWF4X3RvdGFsX2NlbnRzIjo1MDAsImFsbG93ZWRfdmVuZG9ycyI6WyJUZXN0IFN0b3JlIl0sImFsbG93ZWRfY2F0ZWdvcmllcyI6WyJlbGVjdHJvbmljc19hY2Nlc3NvcmllcyJdLCJ3aW5kb3dfY2FwX2NlbnRzIjpudWxsLCJ3aW5kb3dfaG91cnMiOjI0LCJub3RfYmVmb3JlIjoxNzk0MTIxNjY5LCJub3RfYWZ0ZXIiOjE3OTY3MTM2NjksImV4dHJhIjp7fX19.3ae0w4UeLbYK9gXL6nK7cueZ6WeoJQD0twOiwo0rh8rYS5W6dowdD_mJlyou0KG3WZmnAaTZJEgbGun8L4XfpA",
+   "receipt": {
+    "receipt_id": "r-a8aca54517",
+    "mandate_id": "m-0ebbdbc7ad",
+    "order_id": "2MY22539VD3640150",
+    "capture_id": "80D58040R0751113B",
+    "vendor": "Test Store",
+    "category": "electronics_accessories",
+    "total_cents": 100,
+    "purchased_at": 1794121769,
+    "token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWNlaXB0X2lkIjoici1hOGFjYTU0NTE3IiwibWFuZGF0ZV9pZCI6Im0tMGViYmRiYzdhZCIsIm1hbmRhdGVfc2hhMjU2IjoiNTAwZjNkMjRjYzExMTg3ZjQxMGJlOTIwOTU2MjcwYjVmNTIxMGQyYzM2OTJmZDIxZTNiN2ZhZWYxOTg2NjgyNSIsInZlbmRvciI6IlRlc3QgU3RvcmUiLCJjYXRlZ29yeV9kZWNsYXJlZCI6ImVsZWN0cm9uaWNzX2FjY2Vzc29yaWVzIiwiaXRlbXMiOlt7InRpdGxlIjoiVVNCLUMgY2FibGUiLCJwcmljZV9jZW50cyI6MTAwLCJxdHkiOjF9XSwidG90YWxfY2VudHMiOjEwMCwiY3VycmVuY3kiOiJVU0QiLCJwdXJjaGFzZWRfYXQiOjE3OTQxMjE3NjksInRvbGRfYnV5ZXIiOiJCb3VnaHQgVVNCLUMgY2FibGUgZm9yICQxLjAwIGF0IFRlc3QgU3RvcmUuIiwiYWdlbnRfcmF0aW9uYWxlIjoiIiwidW50cnVzdGVkX2lucHV0cyI6W10sInBheXBhbF9vcmRlcl9pZCI6IjJNWTIyNTM5VkQzNjQwMTUwIn0.PCQRwMC9z253shKjovMSpSYTUhWZQ7pHiLFplY2q1Ylheliziun163Hmt19cw4DJ7iOoM5QOmV0AicpYGx5MuQ"
+   },
+   "fulfilment": {
+    "delivery_status": "delivered",
+    "charged_cents": 100
+   }
+  },
+  {
+   "dispute": {
+    "dispute_id": "PP-R-BGQ-10197095",
+    "create_time": "2026-11-08T07:50:47.588Z",
+    "update_time": "2026-11-08T07:54:13.725Z",
+    "disputed_transactions": [
+     {
+      "buyer_transaction_id": "3S520825ED886843S",
+      "seller_transaction_id": "4M091569FX046750Y",
+      "create_time": "2026-11-08T07:47:10.000Z",
+      "transaction_status": "HELD",
+      "gross_amount": {
+       "currency_code": "USD",
+       "value": "1.00"
+      },
+      "buyer": {
+       "email": "removed",
+       "payer_id": "removed",
+       "name": "removed"
+      },
+      "seller": {
+       "email": "removed",
+       "merchant_id": "removed",
+       "name": "removed"
+      },
+      "items": [
+       {
+        "item_name": "USB-C cable",
+        "item_description": "USB-C cable",
+        "item_quantity": "1",
+        "reason": "MERCHANDISE_OR_SERVICE_NOT_RECEIVED",
+        "item_type": "PRODUCT"
+       }
+      ],
+      "seller_protection_eligible": true,
+      "seller_protection_type": "EXPANDED_SELLER_PROTECTION"
+     }
+    ],
+    "reason": "MERCHANDISE_OR_SERVICE_NOT_RECEIVED",
+    "status": "WAITING_FOR_SELLER_RESPONSE",
+    "dispute_amount": {
+     "currency_code": "USD",
+     "value": "1.00"
+    },
+    "dispute_state": "REQUIRED_ACTION",
+    "fund_movements": [
+     {
+      "party": "RECEIVER",
+      "amount": {
+       "currency_code": "USD",
+       "value": "0.48"
+      },
+      "initiated_time": "2026-11-08T07:53:53.000Z",
+      "type": "DEBIT",
+      "reason": "HOLD_PLACED"
+     }
+    ],
+    "dispute_life_cycle_stage": "INQUIRY",
+    "dispute_channel": "INTERNAL",
+    "messages": [
+     {
+      "posted_by": "BUYER",
+      "time_posted": "2026-11-08T07:50:47.588Z",
+      "content": "The store never delivered the USB-C cable my agent bought for $1.00."
+     }
+    ],
+    "extensions": {
+     "merchant_contacted": false,
+     "buyer_contacted_time": "2026-11-08T07:50:47.081Z"
+    },
+    "evidences": [
+     {
+      "evidence_type": "CREATE",
+      "notes": "The store never delivered the USB-C cable my agent bought for $1.00.",
+      "source": "SUBMITTED_BY_BUYER",
+      "date": "2026-11-08T07:50:47.588Z",
+      "dispute_life_cycle_stage": "INQUIRY"
+     },
+     {
+      "evidence_type": "PROOF_OF_FULFILLMENT",
+      "source": "REQUESTED_FROM_SELLER",
+      "date": "2026-11-08T07:54:13.725Z"
+     }
+    ],
+    "seller_response_due_date": "2026-11-28T07:50:47.588Z",
+    "offer": {
+     "buyer_requested_amount": {
+      "currency_code": "USD",
+      "value": "1.00"
+     }
+    },
+    "refund_details": {
+     "allowed_refund_amount": {
+      "currency_code": "USD",
+      "value": "1.00"
+     }
+    },
+    "allowed_response_options": {
+     "accept_claim": {
+      "accept_claim_types": [
+       "PARTIAL_REFUND",
+       "REFUND"
+      ]
+     },
+     "make_offer": {
+      "offer_types": [
+       "REFUND"
+      ]
+     }
+    },
+    "links": [
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-BGQ-10197095",
+      "rel": "self",
+      "method": "GET"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-BGQ-10197095/accept-claim",
+      "rel": "accept_claim",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-BGQ-10197095/provide-evidence",
+      "rel": "provide_evidence",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-BGQ-10197095/send-message",
+      "rel": "send_message",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-BGQ-10197095/escalate",
+      "rel": "escalate",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-BGQ-10197095/make-offer",
+      "rel": "make_offer",
+      "method": "POST"
+     }
+    ]
+   },
+   "mandate_id": "m-5931b85eb3",
+   "mandate_token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ3YXJyYW50Iiwic3ViIjoiYnV5ZXIiLCJqdGkiOiJtLTU5MzFiODVlYjMiLCJpYXQiOjE3OTQxMjIzMjIsIm5iZiI6MTc5NDEyMjI2MiwiZXhwIjoxNzk2NzE0MjYyLCJ0eXBlIjoiaW50ZW50X21hbmRhdGUiLCJpbnRlbnQiOnsibWFuZGF0ZV9pZCI6Im0tNTkzMWI4NWViMyIsImJ1eWVyX2lkIjoiYnV5ZXIiLCJpbnN0cnVjdGlvbiI6IkJ1eSBhIFVTQi1DIGNhYmxlIGZyb20gVGVzdCBTdG9yZSwgdXAgdG8gJDUsIGZvciAzMCBkYXlzLiIsImN1cnJlbmN5IjoiVVNEIiwibWF4X3RvdGFsX2NlbnRzIjo1MDAsImFsbG93ZWRfdmVuZG9ycyI6WyJUZXN0IFN0b3JlIl0sImFsbG93ZWRfY2F0ZWdvcmllcyI6WyJlbGVjdHJvbmljc19hY2Nlc3NvcmllcyJdLCJ3aW5kb3dfY2FwX2NlbnRzIjpudWxsLCJ3aW5kb3dfaG91cnMiOjI0LCJub3RfYmVmb3JlIjoxNzk0MTIyMjYyLCJub3RfYWZ0ZXIiOjE3OTY3MTQyNjIsImV4dHJhIjp7fX19.dTcPYlbKFutg4AVJt2bF1zqr5cVqh_AQ9OHcsOzGJ0ARAflIXbZWj2wcPUzcmkfy3CEFvbYptvPO3ZSgfVZ-Cg",
+   "receipt": {
+    "receipt_id": "r-71823af850",
+    "mandate_id": "m-5931b85eb3",
+    "order_id": "50307512DY597922H",
+    "capture_id": "4M091569FX046750Y",
+    "vendor": "Test Store",
+    "category": "electronics_accessories",
+    "total_cents": 100,
+    "purchased_at": 1794124032,
+    "token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWNlaXB0X2lkIjoici03MTgyM2FmODUwIiwibWFuZGF0ZV9pZCI6Im0tNTkzMWI4NWViMyIsIm1hbmRhdGVfc2hhMjU2IjoiNzkzNDFlNWJkZWMyNzdhY2JjNzE4OTVhYmJiODNiNTI0NDA2NGUxNDU5MTdiOTY1OGIxYjZjYjQ3MjgzOGQ0MSIsInZlbmRvciI6IlRlc3QgU3RvcmUiLCJjYXRlZ29yeV9kZWNsYXJlZCI6ImVsZWN0cm9uaWNzX2FjY2Vzc29yaWVzIiwiaXRlbXMiOlt7InRpdGxlIjoiVVNCLUMgY2FibGUiLCJwcmljZV9jZW50cyI6MTAwLCJxdHkiOjF9XSwidG90YWxfY2VudHMiOjEwMCwiY3VycmVuY3kiOiJVU0QiLCJwdXJjaGFzZWRfYXQiOjE3OTQxMjQwMzIsInRvbGRfYnV5ZXIiOiJCb3VnaHQgVVNCLUMgY2FibGUgZm9yICQxLjAwIGF0IFRlc3QgU3RvcmUuIiwiYWdlbnRfcmF0aW9uYWxlIjoiIiwidW50cnVzdGVkX2lucHV0cyI6W10sInBheXBhbF9vcmRlcl9pZCI6IjUwMzA3NTEyRFk1OTc5MjJIIn0.xrV8cBg8DGzt-lh3ZFVJilad_McpKTW0AGPd3ccfg2llvL-IR1_4tOo-fqlUiPWp7_sx6u_eHnMboqs8JJ8VDQ"
+   },
+   "fulfilment": {
+    "delivery_status": "not_delivered",
+    "charged_cents": 100
+   }
+  },
+  {
+   "dispute": {
+    "dispute_id": "PP-R-ZEY-10197096",
+    "create_time": "2026-11-08T07:56:58.913Z",
+    "update_time": "2026-11-08T08:00:23.886Z",
+    "disputed_transactions": [
+     {
+      "buyer_transaction_id": "2TX355138J999730N",
+      "seller_transaction_id": "0TK742549R4537025",
+      "create_time": "2026-11-08T07:53:28.000Z",
+      "transaction_status": "HELD",
+      "gross_amount": {
+       "currency_code": "USD",
+       "value": "1.00"
+      },
+      "buyer": {
+       "email": "removed",
+       "payer_id": "removed",
+       "name": "removed"
+      },
+      "seller": {
+       "email": "removed",
+       "merchant_id": "removed",
+       "name": "removed"
+      },
+      "items": [
+       {
+        "item_name": "USB-C cable",
+        "item_description": "USB-C cable",
+        "item_quantity": "1",
+        "reason": "MERCHANDISE_OR_SERVICE_NOT_RECEIVED",
+        "item_type": "PRODUCT"
+       }
+      ],
+      "seller_protection_eligible": true,
+      "seller_protection_type": "EXPANDED_SELLER_PROTECTION"
+     }
+    ],
+    "reason": "MERCHANDISE_OR_SERVICE_NOT_RECEIVED",
+    "status": "WAITING_FOR_SELLER_RESPONSE",
+    "dispute_amount": {
+     "currency_code": "USD",
+     "value": "1.00"
+    },
+    "dispute_state": "REQUIRED_ACTION",
+    "fund_movements": [
+     {
+      "party": "RECEIVER",
+      "amount": {
+       "currency_code": "USD",
+       "value": "0.48"
+      },
+      "initiated_time": "2026-11-08T08:00:04.000Z",
+      "type": "DEBIT",
+      "reason": "HOLD_PLACED"
+     }
+    ],
+    "dispute_life_cycle_stage": "INQUIRY",
+    "dispute_channel": "INTERNAL",
+    "messages": [
+     {
+      "posted_by": "BUYER",
+      "time_posted": "2026-11-08T07:56:58.913Z",
+      "content": "My agent spent more than I allowed on this USB-C cable."
+     }
+    ],
+    "extensions": {
+     "merchant_contacted": false,
+     "buyer_contacted_time": "2026-11-08T07:56:58.458Z"
+    },
+    "evidences": [
+     {
+      "evidence_type": "CREATE",
+      "notes": "My agent spent more than I allowed on this USB-C cable.",
+      "source": "SUBMITTED_BY_BUYER",
+      "date": "2026-11-08T07:56:58.913Z",
+      "dispute_life_cycle_stage": "INQUIRY"
+     },
+     {
+      "evidence_type": "PROOF_OF_FULFILLMENT",
+      "source": "REQUESTED_FROM_SELLER",
+      "date": "2026-11-08T08:00:23.886Z"
+     }
+    ],
+    "seller_response_due_date": "2026-11-28T07:56:58.913Z",
+    "offer": {
+     "buyer_requested_amount": {
+      "currency_code": "USD",
+      "value": "1.00"
+     }
+    },
+    "refund_details": {
+     "allowed_refund_amount": {
+      "currency_code": "USD",
+      "value": "1.00"
+     }
+    },
+    "allowed_response_options": {
+     "accept_claim": {
+      "accept_claim_types": [
+       "PARTIAL_REFUND",
+       "REFUND"
+      ]
+     },
+     "make_offer": {
+      "offer_types": [
+       "REFUND"
+      ]
+     }
+    },
+    "links": [
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-ZEY-10197096",
+      "rel": "self",
+      "method": "GET"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-ZEY-10197096/accept-claim",
+      "rel": "accept_claim",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-ZEY-10197096/provide-evidence",
+      "rel": "provide_evidence",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-ZEY-10197096/send-message",
+      "rel": "send_message",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-ZEY-10197096/escalate",
+      "rel": "escalate",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-ZEY-10197096/make-offer",
+      "rel": "make_offer",
+      "method": "POST"
+     }
+    ]
+   },
+   "mandate_id": "m-3254d71219",
+   "mandate_token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ3YXJyYW50Iiwic3ViIjoiYnV5ZXIiLCJqdGkiOiJtLTMyNTRkNzEyMTkiLCJpYXQiOjE3OTQxMjQzNzAsIm5iZiI6MTc5NDEyNDMxMCwiZXhwIjoxNzk2NzE2MzEwLCJ0eXBlIjoiaW50ZW50X21hbmRhdGUiLCJpbnRlbnQiOnsibWFuZGF0ZV9pZCI6Im0tMzI1NGQ3MTIxOSIsImJ1eWVyX2lkIjoiYnV5ZXIiLCJpbnN0cnVjdGlvbiI6IkJ1eSBhIFVTQi1DIGNhYmxlIGZyb20gVGVzdCBTdG9yZSwgdXAgdG8gJDAuNTAsIGZvciAzMCBkYXlzLiIsImN1cnJlbmN5IjoiVVNEIiwibWF4X3RvdGFsX2NlbnRzIjo1MCwiYWxsb3dlZF92ZW5kb3JzIjpbIlRlc3QgU3RvcmUiXSwiYWxsb3dlZF9jYXRlZ29yaWVzIjpbImVsZWN0cm9uaWNzX2FjY2Vzc29yaWVzIl0sIndpbmRvd19jYXBfY2VudHMiOm51bGwsIndpbmRvd19ob3VycyI6MjQsIm5vdF9iZWZvcmUiOjE3OTQxMjQzMTAsIm5vdF9hZnRlciI6MTc5NjcxNjMxMCwiZXh0cmEiOnt9fX0.gxNTSPAq1x6p4EqJRcXpdl_PZXsp8a0SBlXbPyAwxx9oKbmg_R0qNvzWjgt0PVz0CQuFc63V0uh7HvzBcHP0pA",
+   "receipt": {
+    "receipt_id": "r-ede4d50d18",
+    "mandate_id": "m-3254d71219",
+    "order_id": "07E683276C686734G",
+    "capture_id": "0TK742549R4537025",
+    "vendor": "Test Store",
+    "category": "electronics_accessories",
+    "total_cents": 100,
+    "purchased_at": 1794124410,
+    "token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWNlaXB0X2lkIjoici1lZGU0ZDUwZDE4IiwibWFuZGF0ZV9pZCI6Im0tMzI1NGQ3MTIxOSIsIm1hbmRhdGVfc2hhMjU2IjoiZmM4MTA1OTQ3ZmJiOWViYzE0OGZlMzAwNWY4MzIzN2VjNzU4MTAxMjlmMjczZGU5NDUwMGZmNTM2MjQyZmE1ZiIsInZlbmRvciI6IlRlc3QgU3RvcmUiLCJjYXRlZ29yeV9kZWNsYXJlZCI6ImVsZWN0cm9uaWNzX2FjY2Vzc29yaWVzIiwiaXRlbXMiOlt7InRpdGxlIjoiVVNCLUMgY2FibGUiLCJwcmljZV9jZW50cyI6MTAwLCJxdHkiOjF9XSwidG90YWxfY2VudHMiOjEwMCwiY3VycmVuY3kiOiJVU0QiLCJwdXJjaGFzZWRfYXQiOjE3OTQxMjQ0MTAsInRvbGRfYnV5ZXIiOiJCb3VnaHQgVVNCLUMgY2FibGUgZm9yICQxLjAwIGF0IFRlc3QgU3RvcmUuIiwiYWdlbnRfcmF0aW9uYWxlIjoiU2tpcHBlZCB0aGUgcHJlLXB1cmNoYXNlIGNoZWNrLiIsInVudHJ1c3RlZF9pbnB1dHMiOltdLCJwYXlwYWxfb3JkZXJfaWQiOiIwN0U2ODMyNzZDNjg2NzM0RyJ9.-BF_ZVjuFjgs1qVvNdn1IJq8hWOeI1OSp-m6PlvgAy8UzO_kvPSx9KCD4HAhahdAYoptg43d_6mcDohrc1dXSA"
+   },
+   "fulfilment": {
+    "delivery_status": "delivered",
+    "charged_cents": 100
+   }
+  },
+  {
+   "dispute": {
+    "dispute_id": "PP-R-KVF-10197097",
+    "create_time": "2026-11-08T08:00:47.677Z",
+    "update_time": "2026-11-08T08:04:13.820Z",
+    "disputed_transactions": [
+     {
+      "buyer_transaction_id": "6P5738271A323804C",
+      "seller_transaction_id": "4VR91300DF103362T",
+      "create_time": "2026-11-08T07:58:59.000Z",
+      "transaction_status": "HELD",
+      "gross_amount": {
+       "currency_code": "USD",
+       "value": "1.00"
+      },
+      "buyer": {
+       "email": "removed",
+       "payer_id": "removed",
+       "name": "removed"
+      },
+      "seller": {
+       "email": "removed",
+       "merchant_id": "removed",
+       "name": "removed"
+      },
+      "items": [
+       {
+        "item_name": "USB-C cable",
+        "item_description": "USB-C cable",
+        "item_quantity": "1",
+        "reason": "MERCHANDISE_OR_SERVICE_NOT_RECEIVED",
+        "item_type": "PRODUCT"
+       }
+      ],
+      "seller_protection_eligible": true,
+      "seller_protection_type": "EXPANDED_SELLER_PROTECTION"
+     }
+    ],
+    "reason": "MERCHANDISE_OR_SERVICE_NOT_RECEIVED",
+    "status": "WAITING_FOR_SELLER_RESPONSE",
+    "dispute_amount": {
+     "currency_code": "USD",
+     "value": "1.00"
+    },
+    "dispute_state": "REQUIRED_ACTION",
+    "fund_movements": [
+     {
+      "party": "RECEIVER",
+      "amount": {
+       "currency_code": "USD",
+       "value": "0.48"
+      },
+      "initiated_time": "2026-11-08T08:04:04.000Z",
+      "type": "DEBIT",
+      "reason": "HOLD_PLACED"
+     }
+    ],
+    "dispute_life_cycle_stage": "INQUIRY",
+    "dispute_channel": "INTERNAL",
+    "messages": [
+     {
+      "posted_by": "BUYER",
+      "time_posted": "2026-11-08T08:00:47.677Z",
+      "content": "I do not remember asking for this USB-C cable purchase and nothing arrived."
+     }
+    ],
+    "extensions": {
+     "merchant_contacted": false,
+     "buyer_contacted_time": "2026-11-08T08:00:47.203Z"
+    },
+    "evidences": [
+     {
+      "evidence_type": "CREATE",
+      "notes": "I do not remember asking for this USB-C cable purchase and nothing arrived.",
+      "source": "SUBMITTED_BY_BUYER",
+      "date": "2026-11-08T08:00:47.677Z",
+      "dispute_life_cycle_stage": "INQUIRY"
+     },
+     {
+      "evidence_type": "PROOF_OF_FULFILLMENT",
+      "source": "REQUESTED_FROM_SELLER",
+      "date": "2026-11-08T08:04:13.820Z"
+     }
+    ],
+    "seller_response_due_date": "2026-11-28T08:00:47.677Z",
+    "offer": {
+     "buyer_requested_amount": {
+      "currency_code": "USD",
+      "value": "1.00"
+     }
+    },
+    "refund_details": {
+     "allowed_refund_amount": {
+      "currency_code": "USD",
+      "value": "1.00"
+     }
+    },
+    "allowed_response_options": {
+     "accept_claim": {
+      "accept_claim_types": [
+       "PARTIAL_REFUND",
+       "REFUND"
+      ]
+     },
+     "make_offer": {
+      "offer_types": [
+       "REFUND"
+      ]
+     }
+    },
+    "links": [
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-KVF-10197097",
+      "rel": "self",
+      "method": "GET"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-KVF-10197097/accept-claim",
+      "rel": "accept_claim",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-KVF-10197097/provide-evidence",
+      "rel": "provide_evidence",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-KVF-10197097/send-message",
+      "rel": "send_message",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-KVF-10197097/escalate",
+      "rel": "escalate",
+      "method": "POST"
+     },
+     {
+      "href": "https://api-m.sandbox.paypal.com/v1/customer/disputes/PP-R-KVF-10197097/make-offer",
+      "rel": "make_offer",
+      "method": "POST"
+     }
+    ]
+   }
+  }
+ ]
+}

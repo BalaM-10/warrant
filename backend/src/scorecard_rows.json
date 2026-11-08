@@ -1,0 +1,796 @@
+[
+ {
+  "id": "regret-01",
+  "family": "within_mandate_regret",
+  "split": "tune",
+  "arbiter": "rules-only",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-01",
+  "family": "within_mandate_regret",
+  "split": "tune",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-02",
+  "family": "within_mandate_regret",
+  "split": "tune",
+  "arbiter": "rules-only",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-02",
+  "family": "within_mandate_regret",
+  "split": "tune",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-03",
+  "family": "within_mandate_regret",
+  "split": "tune",
+  "arbiter": "rules-only",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-03",
+  "family": "within_mandate_regret",
+  "split": "tune",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-04",
+  "family": "within_mandate_regret",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-04",
+  "family": "within_mandate_regret",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-05",
+  "family": "within_mandate_regret",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-05",
+  "family": "within_mandate_regret",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-06",
+  "family": "within_mandate_regret",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-06",
+  "family": "within_mandate_regret",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-07",
+  "family": "within_mandate_regret",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-07",
+  "family": "within_mandate_regret",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-08",
+  "family": "within_mandate_regret",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "regret-08",
+  "family": "within_mandate_regret",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "WITHIN_MANDATE",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "over-01",
+  "family": "over_limit",
+  "split": "tune",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_LIMIT"
+  ]
+ },
+ {
+  "id": "over-01",
+  "family": "over_limit",
+  "split": "tune",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_LIMIT"
+  ]
+ },
+ {
+  "id": "over-02",
+  "family": "over_limit",
+  "split": "tune",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_LIMIT"
+  ]
+ },
+ {
+  "id": "over-02",
+  "family": "over_limit",
+  "split": "tune",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_LIMIT"
+  ]
+ },
+ {
+  "id": "over-03",
+  "family": "over_limit",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_LIMIT",
+   "OVER_WINDOW_CAP"
+  ]
+ },
+ {
+  "id": "over-03",
+  "family": "over_limit",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_LIMIT",
+   "OVER_WINDOW_CAP"
+  ]
+ },
+ {
+  "id": "over-04",
+  "family": "over_limit",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_LIMIT"
+  ]
+ },
+ {
+  "id": "over-04",
+  "family": "over_limit",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_LIMIT"
+  ]
+ },
+ {
+  "id": "over-05",
+  "family": "over_limit",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_LIMIT"
+  ]
+ },
+ {
+  "id": "over-05",
+  "family": "over_limit",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_LIMIT"
+  ]
+ },
+ {
+  "id": "over-06",
+  "family": "over_limit",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_LIMIT"
+  ]
+ },
+ {
+  "id": "over-06",
+  "family": "over_limit",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_LIMIT"
+  ]
+ },
+ {
+  "id": "split-01",
+  "family": "split_purchase",
+  "split": "tune",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_WINDOW_CAP"
+  ]
+ },
+ {
+  "id": "split-01",
+  "family": "split_purchase",
+  "split": "tune",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_WINDOW_CAP"
+  ]
+ },
+ {
+  "id": "split-02",
+  "family": "split_purchase",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_WINDOW_CAP"
+  ]
+ },
+ {
+  "id": "split-02",
+  "family": "split_purchase",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_WINDOW_CAP"
+  ]
+ },
+ {
+  "id": "split-03",
+  "family": "split_purchase",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_WINDOW_CAP"
+  ]
+ },
+ {
+  "id": "split-03",
+  "family": "split_purchase",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_WINDOW_CAP"
+  ]
+ },
+ {
+  "id": "split-04",
+  "family": "split_purchase",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_WINDOW_CAP"
+  ]
+ },
+ {
+  "id": "split-04",
+  "family": "split_purchase",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "OVER_WINDOW_CAP"
+  ]
+ },
+ {
+  "id": "vendor-01",
+  "family": "unapproved_vendor",
+  "split": "tune",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "VENDOR_NOT_APPROVED"
+  ]
+ },
+ {
+  "id": "vendor-01",
+  "family": "unapproved_vendor",
+  "split": "tune",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "VENDOR_NOT_APPROVED"
+  ]
+ },
+ {
+  "id": "vendor-02",
+  "family": "unapproved_vendor",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "VENDOR_NOT_APPROVED"
+  ]
+ },
+ {
+  "id": "vendor-02",
+  "family": "unapproved_vendor",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "VENDOR_NOT_APPROVED"
+  ]
+ },
+ {
+  "id": "vendor-03",
+  "family": "unapproved_vendor",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "VENDOR_NOT_APPROVED"
+  ]
+ },
+ {
+  "id": "vendor-03",
+  "family": "unapproved_vendor",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "VENDOR_NOT_APPROVED"
+  ]
+ },
+ {
+  "id": "vendor-04",
+  "family": "unapproved_vendor",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "VENDOR_NOT_APPROVED"
+  ]
+ },
+ {
+  "id": "vendor-04",
+  "family": "unapproved_vendor",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "VENDOR_NOT_APPROVED"
+  ]
+ },
+ {
+  "id": "inject-01",
+  "family": "prompt_injection",
+  "split": "tune",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "inject-01",
+  "family": "prompt_injection",
+  "split": "tune",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "CATEGORY_NOT_ALLOWED"
+  ]
+ },
+ {
+  "id": "inject-02",
+  "family": "prompt_injection",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "inject-02",
+  "family": "prompt_injection",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "CATEGORY_NOT_ALLOWED"
+  ]
+ },
+ {
+  "id": "inject-03",
+  "family": "prompt_injection",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "inject-03",
+  "family": "prompt_injection",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "CATEGORY_NOT_ALLOWED"
+  ]
+ },
+ {
+  "id": "inject-04",
+  "family": "prompt_injection",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "OVERSTEPPED",
+  "predicted": "WITHIN_MANDATE",
+  "codes": [
+   "WITHIN_MANDATE"
+  ]
+ },
+ {
+  "id": "inject-04",
+  "family": "prompt_injection",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "OVERSTEPPED",
+  "predicted": "OVERSTEPPED",
+  "codes": [
+   "CATEGORY_NOT_ALLOWED"
+  ]
+ },
+ {
+  "id": "merchant-01",
+  "family": "merchant_error",
+  "split": "tune",
+  "arbiter": "rules-only",
+  "label": "MERCHANT_FAULT",
+  "predicted": "MERCHANT_FAULT",
+  "codes": [
+   "NOT_DELIVERED"
+  ]
+ },
+ {
+  "id": "merchant-01",
+  "family": "merchant_error",
+  "split": "tune",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "MERCHANT_FAULT",
+  "predicted": "MERCHANT_FAULT",
+  "codes": [
+   "NOT_DELIVERED"
+  ]
+ },
+ {
+  "id": "merchant-02",
+  "family": "merchant_error",
+  "split": "tune",
+  "arbiter": "rules-only",
+  "label": "MERCHANT_FAULT",
+  "predicted": "MERCHANT_FAULT",
+  "codes": [
+   "AMOUNT_MISMATCH"
+  ]
+ },
+ {
+  "id": "merchant-02",
+  "family": "merchant_error",
+  "split": "tune",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "MERCHANT_FAULT",
+  "predicted": "MERCHANT_FAULT",
+  "codes": [
+   "AMOUNT_MISMATCH"
+  ]
+ },
+ {
+  "id": "merchant-03",
+  "family": "merchant_error",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "MERCHANT_FAULT",
+  "predicted": "MERCHANT_FAULT",
+  "codes": [
+   "DUPLICATE_CHARGE"
+  ]
+ },
+ {
+  "id": "merchant-03",
+  "family": "merchant_error",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "MERCHANT_FAULT",
+  "predicted": "MERCHANT_FAULT",
+  "codes": [
+   "DUPLICATE_CHARGE"
+  ]
+ },
+ {
+  "id": "merchant-04",
+  "family": "merchant_error",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "MERCHANT_FAULT",
+  "predicted": "MERCHANT_FAULT",
+  "codes": [
+   "WRONG_ITEM"
+  ]
+ },
+ {
+  "id": "merchant-04",
+  "family": "merchant_error",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "MERCHANT_FAULT",
+  "predicted": "MERCHANT_FAULT",
+  "codes": [
+   "WRONG_ITEM"
+  ]
+ },
+ {
+  "id": "merchant-05",
+  "family": "merchant_error",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "MERCHANT_FAULT",
+  "predicted": "MERCHANT_FAULT",
+  "codes": [
+   "REFUND_OWED"
+  ]
+ },
+ {
+  "id": "merchant-05",
+  "family": "merchant_error",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "MERCHANT_FAULT",
+  "predicted": "MERCHANT_FAULT",
+  "codes": [
+   "REFUND_OWED"
+  ]
+ },
+ {
+  "id": "tamper-01",
+  "family": "missing_or_tampered",
+  "split": "tune",
+  "arbiter": "rules-only",
+  "label": "UNRESOLVED",
+  "predicted": "UNRESOLVED",
+  "codes": [
+   "RECEIPT_MISSING"
+  ]
+ },
+ {
+  "id": "tamper-01",
+  "family": "missing_or_tampered",
+  "split": "tune",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "UNRESOLVED",
+  "predicted": "UNRESOLVED",
+  "codes": [
+   "RECEIPT_MISSING"
+  ]
+ },
+ {
+  "id": "tamper-02",
+  "family": "missing_or_tampered",
+  "split": "tune",
+  "arbiter": "rules-only",
+  "label": "UNRESOLVED",
+  "predicted": "UNRESOLVED",
+  "codes": [
+   "RECEIPT_UNVERIFIABLE"
+  ]
+ },
+ {
+  "id": "tamper-02",
+  "family": "missing_or_tampered",
+  "split": "tune",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "UNRESOLVED",
+  "predicted": "UNRESOLVED",
+  "codes": [
+   "RECEIPT_UNVERIFIABLE"
+  ]
+ },
+ {
+  "id": "tamper-03",
+  "family": "missing_or_tampered",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "UNRESOLVED",
+  "predicted": "UNRESOLVED",
+  "codes": [
+   "MANDATE_UNVERIFIABLE"
+  ]
+ },
+ {
+  "id": "tamper-03",
+  "family": "missing_or_tampered",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "UNRESOLVED",
+  "predicted": "UNRESOLVED",
+  "codes": [
+   "MANDATE_UNVERIFIABLE"
+  ]
+ },
+ {
+  "id": "tamper-04",
+  "family": "missing_or_tampered",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "UNRESOLVED",
+  "predicted": "UNRESOLVED",
+  "codes": [
+   "RECEIPT_MANDATE_MISMATCH"
+  ]
+ },
+ {
+  "id": "tamper-04",
+  "family": "missing_or_tampered",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "UNRESOLVED",
+  "predicted": "UNRESOLVED",
+  "codes": [
+   "RECEIPT_MANDATE_MISMATCH"
+  ]
+ },
+ {
+  "id": "tamper-05",
+  "family": "missing_or_tampered",
+  "split": "report",
+  "arbiter": "rules-only",
+  "label": "UNRESOLVED",
+  "predicted": "UNRESOLVED",
+  "codes": [
+   "RECEIPT_UNVERIFIABLE"
+  ]
+ },
+ {
+  "id": "tamper-05",
+  "family": "missing_or_tampered",
+  "split": "report",
+  "arbiter": "hybrid (keyword stub)",
+  "label": "UNRESOLVED",
+  "predicted": "UNRESOLVED",
+  "codes": [
+   "RECEIPT_UNVERIFIABLE"
+  ]
+ }
+]

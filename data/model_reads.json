@@ -1,0 +1,38 @@
+{
+ "gift card|electronics_accessories": {
+  "category": "gift_cards",
+  "confidence": 0.95,
+  "date": "2026-11-05",
+  "model": "nvidia/nemotron-3.5-bolt-e4b"
+ },
+ "laptop stand|electronics_accessories": {
+  "category": "electronics_accessories",
+  "confidence": 0.9,
+  "date": "2026-11-05",
+  "model": "nvidia/nemotron-3.5-bolt-e4b"
+ },
+ "premium subscription trial|electronics_accessories": {
+  "category": "services",
+  "confidence": 0.95,
+  "date": "2026-11-05",
+  "model": "nvidia/nemotron-3.5-bolt-e4b"
+ },
+ "usb-c cable|electronics_accessories": {
+  "category": "electronics_accessories",
+  "confidence": 0.95,
+  "date": "2026-11-05",
+  "model": "nvidia/nemotron-3.5-bolt-e4b"
+ },
+ "usb-c charger|electronics_accessories": {
+  "category": "electronics_accessories",
+  "confidence": 0.95,
+  "date": "2026-11-05",
+  "model": "nvidia/nemotron-3.5-bolt-e4b"
+ },
+ "wireless earbuds bundle|electronics_accessories": {
+  "category": "audio",
+  "confidence": 0.95,
+  "date": "2026-11-05",
+  "model": "nvidia/nemotron-3.5-bolt-e4b"
+ }
+}

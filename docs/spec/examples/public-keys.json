@@ -1,0 +1,5 @@
+{
+  "note": "Throwaway keys generated for this example only.",
+  "mandate_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0Yn41nNMmdBWs+hmjbY1GL4OEeTU\nKwLNU+fjOhimFGilqQHjXLf02AC96tW4IB3KFOKrJFPLDR+xJVX3q48I0A==\n-----END PUBLIC KEY-----\n",
+  "agent_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEknksuMnlzOiNoTzuQRCuyePl1byq\nzhDGdMqGRTBRrzVYjFworzKKvCZlxVlsT4VyHTEJdJMgk50YBTwun/Ly2Q==\n-----END PUBLIC KEY-----\n"
+}
