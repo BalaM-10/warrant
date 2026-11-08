@@ -2,6 +2,8 @@
 
 When a software agent buys the wrong thing, someone has to decide who was at fault. Warrant is that referee. It settles disputes over purchases made by software agents, and it runs on PayPal's sandbox.
 
+**Watch:** https://youtu.be/wHxMzdpAkeU.
+
 **Try it:** https://warrant-30739400910.us-central1.run.app. No account or keys needed. Open Store owner to see four real PayPal sandbox disputes, one for each ruling, then Buyer for the other side and Developer to check an evidence packet for edits. The hosted copy shows recorded disputes, so approving there sends nothing to PayPal.
 
 A buyer tells a shopping agent what it may buy,"Buy USB-C cables from Test Store, up to $25, for 30 days." Warrant turns that into a signed instruction. The agent checks every cart against it, buys through PayPal's Orders API and signs a receipt. If the buyer later opens a dispute, Warrant reads the signed instruction, the receipt and the store's record, and reaches one of four rulings.
